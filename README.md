@@ -25,6 +25,10 @@ sources is provided in the documentation for load\_db
 To use this package you can sign into Kaggle and download the data at
 [www.kaggle.com/c/nfl-big-data-bowl-2021/data](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
 
+This package depends on sf, which could require you to install some
+extra libraries for geographic data. There are some tutorials to do
+these on <https://thinkr.fr/Installation_spatial_EN.html>
+
 Place all the data at data/
 
 You can build a database to handle the files if you have DBI and
@@ -92,7 +96,7 @@ have to install if you don’t already have it already to create gifs.
 Plots were used in the submission for my databowl project that can be
 found here <https://www.kaggle.com/est092/vornoi-areas>
 
-<img src="https://gitlab.com/est_092/vornoiAreas/-/raw/master/output/vornoi-2072.gif" alt="hi" class="inline"/>
+<img src="https://gitlab.com/est_092/vornoiAreas/-/raw/master/output/VOR-2072.png" alt="hi" class="inline"/>
 
 ``` r
 plot_vornoi_animation(df)
