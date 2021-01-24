@@ -24,8 +24,11 @@ sources is provided in the documentation for load\_db
 
 To use this package you can sign into Kaggle and download the data at
 [www.kaggle.com/c/nfl-big-data-bowl-2021/data](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data)
-Place all the data at data/ You can build a database to handle the files
-if you have DBI and RSQLite, or use csv’s.
+
+Place all the data at data/
+
+You can build a database to handle the files if you have DBI and
+RSQLite, or use csv’s.
 
 ``` r
 devtools::install_github("ecastillomon/nflgisR")
@@ -103,7 +106,8 @@ plot_vornoi_analytics(df)
 
 Thanks for using\! This project is meant to be open-source, and any
 feedback or contribution will be considered. Feel free to contact me at
-\[@ecastillomon\](<https://twitter.com/ecastillomon>), or at
-\[@patpAItriot\](<https://twitter.com/patPaitriot>) for more football
-analytics project. Email: [est092@gmail.com](est092@gmail.com) Github:
-[https://github.com/ecastillomon](ecastillomon)
+[ecastillomon](https://twitter.com/ecastillomon), or at
+[patpAItriot](https://twitter.com/patPaitriot) for more football
+analytics project. Email: [est092@gmail.com](est092@gmail.com)
+
+Github: [https://github.com/ecastillomon](ecastillomon)

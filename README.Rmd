@@ -29,7 +29,9 @@ different dataset, you would have to set the names to match those files or some 
 
 To use this package you can sign into Kaggle and download the data at
 [www.kaggle.com/c/nfl-big-data-bowl-2021/data](https://www.kaggle.com/c/nfl-big-data-bowl-2021/data) 
+
 Place all the data at data/
+
 You can build a database to handle the files if you have DBI and RSQLite, or use csv's.
 
 ``` r
@@ -82,6 +84,7 @@ create_db(src_dir = "/home/esteban/nflgisR/data/")
 gganimate is not installed to make the package lighter, but you will have to install if you don't already have it already to create gifs. 
 Plots were used in the submission for my databowl project that can be found here https://www.kaggle.com/est092/vornoi-areas
 
+
 <img src="https://gitlab.com/est_092/vornoiAreas/-/raw/master/output/vornoi-2072.gif" alt="hi" class="inline"/>
 
 
@@ -98,7 +101,8 @@ plot_vornoi_analytics(df)
 
 
 
-Thanks for using! This project is meant to be open-source, and any feedback or contribution will be considered. Feel free to contact me at [@ecastillomon](https://twitter.com/ecastillomon), or at [@patpAItriot](https://twitter.com/patPaitriot) for more football analytics project. 
+Thanks for using! This project is meant to be open-source, and any feedback or contribution will be considered. Feel free to contact me at [ecastillomon](https://twitter.com/ecastillomon), or at [patpAItriot](https://twitter.com/patPaitriot) for more football analytics project. 
 Email: [est092@gmail.com](est092@gmail.com)
+
 Github: [https://github.com/ecastillomon](ecastillomon)
 
