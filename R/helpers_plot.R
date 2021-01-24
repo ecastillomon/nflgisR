@@ -79,10 +79,7 @@ plot_vornoi_animation=function(df,file_dir="output/"){
 #' @importFrom rlang .data
 #'
 plot_vornoi_analytics=function(df,file_dir="output/",type="all"){
-  if (!requireNamespace("gganimate", quietly = TRUE)) {
-    print("gganimate packages are needed, please install")
-    break()
-  }
+
   df_plot_stats=df %>% head(1) %>% pull(.data$play_stats) %>% .[[1]]
   df_plot=df %>% head(1) %>% pull(.data$players_all) %>% .[[1]] %>%
     tidyr::unnest(.data$tracking_data) %>% st_sf()%>%
